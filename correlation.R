@@ -11,12 +11,10 @@ rm(list=ls())
 # import cell line info
 cell.info = read.csv('CCLE_data/cell_line_info/CCLE_info.csv')
 head(cell.info)
-# get CCLE name
-cell.line = str_split(cell.info[,1], '_', n = 2, simplify = T)[,1]
-cell.info = cbind(cell.line, cell.info)
+
 # dissect out the info
 colnames(cell.info)
-df.info = cell.info[,c(1,3,6,10)]
+df.info = cell.info[,c(1,2,5,6,9)]
 head(df.info)
 
 # import datasets
@@ -28,100 +26,110 @@ df.ac = data.frame()
 for (g in gene){
   for (q in quant){
     df = read.csv(paste0('CCLE_data/dataset/', q, '_', g,'.csv'), header = T)
-    x = df[,1]
-    t = str_split(x, '_', n = 2, simplify = T)
     assay = rep(q, nrow(df))
     gn = rep(g, nrow(df))
-    df = cbind(t[,1],df[,-1],t[,2], assay, gn)
-    colnames(df) = c('cell.line', 'exp', 'tissue', 'assay', 'gene')
+    df = cbind(df, assay, gn)
+    colnames(df) = c('CCLE.name','expr','assay','gene')
     df.ac = rbind(df.ac, df)
   }
 }
 head(df.ac)
 
 # dcast dataframe
-df.ac$exp = df.ac$exp %>% as.numeric()
+df.ac$expr = df.ac$expr %>% as.numeric()
 class(df.ac$exp)
-df.dc = dcast(df.ac, formula = cell.line + tissue + assay ~ gene, value.var = 'exp')
+df.dc = dcast(df.ac, formula = CCLE.name + assay ~ gene, value.var = 'expr')
 head(df.dc)
 
 # dissect dfaffy and dfrna
-df.affy = df.dc[which(df.dc$assay=='Affy'),c(1:2,4:6)]
+df.affy = df.dc[which(df.dc$assay=='Affy'),c(1,3:5)] %>% na.omit()
 rownames(df.affy) = NULL
-df.rnaseq = df.dc[which(df.dc$assay=='RNAseq'),c(1:2,4:6)] %>% na.omit()
+head(df.affy)
+df.rnaseq = df.dc[which(df.dc$assay=='RNAseq'),c(1,3:5)] %>% na.omit()
 rownames(df.rnaseq) = NULL
-
+head(df.rnaseq)
 ## start with df.rna
 # merge cell info into df.rna
 df.rnaseq = merge(df.rnaseq, df.info)
 head(df.rnaseq)
 
 # plot correlation of ace2, tmprss2 and tmprss4
-pairs(df.affy[3:5])
-pairs(df.rnaseq[3:5])
-test = log2(df.affy[3:5])
-pairs(test)
+# pairs(df.affy[3:5])
+# pairs(df.rnaseq[3:5])
+# test = log2(df.affy[3:5])
+# pairs(test)
 
-# plot histogram of tmprss2
-hist(df.rnaseq$tmprss2)
+# # plot histogram of tmprss2
+# hist(df.rnaseq$tmprss2)
 
 # 2^ normalization
-df.2 = 2^df.rnaseq[3:5] 
-rownames(df.2) = make.names(df.rnaseq$cell.line, unique = TRUE)
+df.2 = 2^df.rnaseq[,2:4] 
+rownames(df.2) = make.names(df.rnaseq$CCLE.name, unique = TRUE)
+head(df.2)
 
-# test out the score with assumed a
-b = mean(df.2$tmprss2)/10
-a = 0.5
-FUN = function(x){x[1] * (x[2] + a*x[3] + b)}
+ # test out the score with assumed a
+ b = mean(df.2$tmprss2)/10
+ a = 0.5
+ FUN = function(x){x[1] * (x[2] + a*x[3] + b)}
 
-df.sc = apply(df.2, 1, FUN) 
+ df.sc = apply(df.2, 1, FUN)
 df = df.sc
-df = data.frame(score = df, cell.line = df.rnaseq$cell.line, tissue = df.rnaseq$tissue) %>% na.omit()
+df = data.frame(score = df, cell.line = df.rnaseq$Cell.line.primary.name, tissue = df.rnaseq$Site.Primary, source = df.rnaseq$Source) %>% na.omit()
 index.ord = order(df$score, decreasing = TRUE)
 df.ord = df[index.ord,]
 label.cell = rep('', nrow(df))
 label.tissue = rep(NA, nrow(df))
+label.source = rep(NA, nrow(df))
 n = 30
 label.cell[1:n] = df.ord$cell.line[1:n]
 label.tissue[1:n] = df.ord$tissue[1:n]
+label.source[1:n] = df.ord$source[1:n]
+# ##
+ # label.cell = rep('', nrow(df))
+ # label.tissue = rep(NA, nrow(df))
+ # calu3 = which(df.ord$cell.line == 'CALU3')
+ # caco2 = which(df.ord$cell.line == 'CACO2')
+ # index.ca = c(calu3,caco2)
+ # label.cell[index.ca] = df.ord$cell.line[index.ca]
+ # label.tissue[index.ca] = df.ord$tissue[index.ca]
+ # #
 
-## 
-label.cell = rep('', nrow(df))
-label.tissue = rep(NA, nrow(df))
-calu3 = which(df.ord$cell.line == 'CALU3')
-caco2 = which(df.ord$cell.line == 'CACO2')
-index.ca = c(calu3,caco2)
-label.cell[index.ca] = df.ord$cell.line[index.ca]
-label.tissue[index.ca] = df.ord$tissue[index.ca]
-##
-
-jpeg(filename = paste0('scores/score_ca_log',a,'.jpg'), width = 12, height = 4, units = 'in', res = 300)
-ggplot(data = df.ord, aes(x = cell.line, y = log(score), 
-                          color = label.tissue, label = label.cell)) +
-  geom_point() +
-  labs(title = paste0('alpha = ',a),
-       x = 'cell lines', y = 'log_score', color = 'tissue') +
-  geom_text_repel(show_guide=FALSE) +
-  theme(axis.text.x=element_blank(),
-        axis.ticks.x=element_blank())
-dev.off()
+ jpeg(filename = paste0('score_source_log',a,'.jpg'), width = 24, height = 8, units = 'in', res = 300)
+ ggplot(data = df.ord, aes(x = cell.line, y = log(score),
+                           color = label.tissue, label = label.cell)) +
+   facet_grid(. ~ source) +
+   geom_point() +
+   labs(title = paste0('alpha = ',a),
+        x = 'cell lines', y = 'log_score', color = 'tissue') +
+   geom_text_repel(show_guide=FALSE) +
+   theme(axis.text.x=element_blank(),
+         axis.ticks.x=element_blank())
+   dev.off()
 
 
 
 alist = (1:100)/100
+b = mean(df.2$tmprss2)/10
+a = 0.5
 
-df.sc.ac = data.frame(cell.line = df.rnaseq$cell.line, tissue = df.rnaseq$tissue)
+df.sc.ac = data.frame(cell.line = df.rnaseq$Cell.line.primary.name, 
+  tissue = df.rnaseq$Site.Primary)
+head(df.sc.ac)
 for (a in alist){
   print(a)
   FUN = function(x){x[1] * (x[2] + a*x[3] + b)}
   arr = apply(df.2, 1, FUN)
   df.sc.ac = cbind(df.sc.ac, arr)
 }
-
+rownames(df.sc.ac) = NULL
+dim(df.sc.ac)
+head(df.sc.ac)
 df.sc.ac = df.sc.ac %>% na.omit()
 df.ar = t(df.sc.ac[,-c(1:2)])
-colnames(df.ar) = df.sc.ac$cell.line
+colnames(df.ar) = df.sc.ac$CCLE.name
 rownames(df.ar) = c(1:100)/100
+head(df.ar)
+
 stat.mean = apply(df.ar, 2, mean)
 index.stat.top = order(stat.mean, decreasing = TRUE) %>% head(20)
 cell.top = colnames(df.ar)[index.stat.top]
@@ -138,6 +146,9 @@ ggplot(data = df.ar.melt, aes(x = alpha, y = score, color = col.label)) +
   theme_minimal() + 
   labs(title = 'Simulate Scores to Alpha', color = 'cell lines')
 dev.off()
+
+
+
 
 # visualize back to dot plot
 cell.index = which(df.rnaseq$cell.line %in% cell.top)
