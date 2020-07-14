@@ -1,0 +1,976 @@
+cell.line,tissue,source,avg.score
+NCI-H684,liver,KCLB,1217.346028
+OVISE,ovary,HSRRB,992.2960509
+CL-40,large_intestine,DSMZ,673.1287122
+SNU-C1,large_intestine,ATCC,568.0030755
+CL-14,large_intestine,DSMZ,547.7248006
+OV-90,ovary,ATCC,493.6184192
+CAL-33,upper_aerodigestive_tract,DSMZ,447.5499411
+SW1463,large_intestine,ATCC,438.7384869
+HT55,large_intestine,ECACC,377.2720607
+HCC1937,breast,ATCC,348.3418793
+SNU-1076,upper_aerodigestive_tract,KCLB,264.5483098
+OUMS-23,large_intestine,HSRRB,263.1932126
+SNU-1066,upper_aerodigestive_tract,KCLB,241.1445388
+HCC-1588,lung,KCLB,230.5856562
+JHOM-2B,ovary,RIKEN,185.3745976
+NCI-H508,large_intestine,ATCC,160.4335592
+IM95,stomach,HSRRB,141.0396348
+GSU,stomach,RIKEN,133.0646837
+SNU-16,stomach,ATCC,130.2783114
+SK-CO-1,large_intestine,ATCC,129.8162174
+KMBC-2,urinary_tract,HSRRB,125.9705264
+KP-2,pancreas,HSRRB,108.7137954
+NCI-H3255,lung,Academic Lab,102.1221601
+LS1034,large_intestine,ATCC,84.60114014
+HPAF-II,pancreas,ATCC,73.60242605
+MDA-MB-175-VII,breast,ATCC,70.82846982
+HCC1954,breast,ATCC,70.46034628
+T84,large_intestine,ATCC,65.70735248
+Calu-3,lung,ATCC,63.29755111
+CL-34,large_intestine,DSMZ,61.49598585
+LNCaP clone FGC,prostate,ATCC,61.15092395
+LS123,large_intestine,ATCC,60.91429889
+SW1116,large_intestine,ATCC,58.10889038
+SNU-245,biliary_tract,KCLB,57.57852024
+CW-2,large_intestine,RIKEN,55.53171557
+TE-5,oesophagus,RIKEN,54.93787347
+SF767,central_nervous_system,Academic Lab / Achilles,50.9105264
+NCC-StC-K140,stomach,RIKEN,49.06146805
+RCM-1,large_intestine,HSRRB,48.05854544
+LS513,large_intestine,ATCC,45.73649566
+OCUM-1,stomach,HSRRB,45.64820533
+HCC-56,large_intestine,HSRRB,42.70059932
+SNU-1077,endometrium,KCLB,41.48351135
+UM-UC-1,urinary_tract,ECACC,38.73488852
+C2BBe1,large_intestine,ATCC,35.88941069
+SW948,large_intestine,ATCC,35.79050103
+MDA-MB-468,breast,ATCC,34.93493772
+CCK-81,large_intestine,HSRRB,34.5377214
+TEN,endometrium,RIKEN,33.17692113
+BFTC-905,urinary_tract,DSMZ,33.09033411
+SNU-61,large_intestine,KCLB,32.32828563
+IGROV1,ovary,NCI/DCTD,30.5685813
+HCC70,breast,ATCC,30.55810185
+SW 780,urinary_tract,ATCC,28.65908534
+HCC2935,lung,ATCC,28.31116772
+SNU-1033,large_intestine,KCLB,25.49450288
+BHY,upper_aerodigestive_tract,DSMZ,24.6500712
+NCI-H1781,lung,ATCC,24.47981315
+GCIY,stomach,RIKEN,23.82326363
+SNU-1214,upper_aerodigestive_tract,KCLB,22.86602332
+CAL 27,upper_aerodigestive_tract,ATCC,22.86172353
+ABC-1,lung,HSRRB,22.83385626
+TE-9,oesophagus,RIKEN,22.63795561
+BICR 22,upper_aerodigestive_tract,ECACC,22.37473294
+BICR 56,upper_aerodigestive_tract,ECACC,21.7838848
+BICR 6,upper_aerodigestive_tract,ECACC,21.64131669
+TE-14,oesophagus,RIKEN,21.25601903
+Li-7,liver,RIKEN,20.77856658
+SNU-899,upper_aerodigestive_tract,KCLB,20.15477161
+RT-112,urinary_tract,DSMZ,19.99044954
+NCI-H1648,lung,ATCC,19.54983043
+NCI-H2126,lung,ATCC,18.11449064
+HDQ-P1,breast,DSMZ,17.97480987
+SNU-503,large_intestine,KCLB,17.10751471
+SNU-283,large_intestine,KCLB,17.02766663
+NUGC-2,stomach,HSRRB,16.38676082
+JHH-1,liver,HSRRB,16.29606573
+NUGC-4,stomach,RIKEN,16.29594609
+SNU-213,pancreas,KCLB,16.20406826
+UACC-893,breast,ATCC,15.39219632
+HT115,large_intestine,ECACC,14.83502427
+HUP-T4,pancreas,DSMZ,14.72640632
+KATO III,stomach,ATCC,14.53212352
+MOR/CPR,lung,ECACC,13.89243035
+BxPC-3,pancreas,ATCC,13.74092375
+SU.86.86,pancreas,ATCC,13.60592082
+LoVo,large_intestine,ATCC,13.33564439
+NCI-H1435,lung,ATCC,13.19111126
+SNU-C4,large_intestine,KCLB,11.76095502
+SNU-308,biliary_tract,KCLB,11.7051475
+BICR 31,upper_aerodigestive_tract,ECACC,11.56756369
+PE/CA-PJ15,upper_aerodigestive_tract,ECACC,11.35697522
+SNU-81,large_intestine,KCLB,10.94427045
+KE-39,stomach,RIKEN,10.87186622
+BT-20,breast,ATCC,10.71315056
+SW403,large_intestine,ATCC,10.63890089
+RERF-GC-1B,stomach,HSRRB,10.50532495
+RT4,urinary_tract,ATCC,10.35242274
+SNU-719,stomach,KCLB,10.2995896
+MKN-45,stomach,HSRRB,10.2638808
+YAPC,pancreas,DSMZ,10.17467065
+MDA PCa 2b,prostate,ATCC,10.03037252
+AU565,breast,ATCC,9.622045678
+NCI-H441,lung,ATCC,9.158581977
+Capan-1,pancreas,ATCC,9.093350074
+NCI-H596,lung,ATCC,9.049481891
+OAW28,ovary,ECACC,8.98480898
+PE/CA-PJ34 (clone C12),upper_aerodigestive_tract,ECACC,8.909406744
+U-BLC1,urinary_tract,ECACC,8.550428378
+LUDLU-1,lung,ECACC,8.502202383
+NCI-H2122,lung,ATCC,8.414934884
+JHUEM-7,endometrium,RIKEN,8.412629231
+BICR 18,upper_aerodigestive_tract,ECACC,7.956483871
+CFPAC-1,pancreas,ATCC,7.893689258
+SW837,large_intestine,ATCC,7.853239969
+AsPC-1,pancreas,ATCC,7.714773427
+SW1417,large_intestine,ATCC,7.710104915
+SNU-119,ovary,KCLB,7.357930588
+HCC202,breast,ATCC,6.574361567
+SNU-869,biliary_tract,KCLB,6.542739326
+JHOS-4,ovary,RIKEN,6.474305829
+COLO-678,large_intestine,DSMZ,6.096692217
+HCC4006,lung,ATCC,6.029662669
+SCC-15,upper_aerodigestive_tract,ATCC,5.874463883
+NCI-H2342,lung,ATCC,5.858702696
+SNU-1041,upper_aerodigestive_tract,KCLB,5.762981303
+JHUEM-1,endometrium,RIKEN,5.667438616
+T3M-4,pancreas,RIKEN,5.648620206
+Panc 02.13,pancreas,ATCC,5.600824585
+MKN74,stomach,HSRRB,5.578775577
+HCC1806,breast,ATCC,5.513285755
+T.T,oesophagus,HSRRB,5.487565573
+HCC1187,breast,ATCC,5.401533673
+KYSE-70,oesophagus,DSMZ,5.363401503
+HCC-827-GR5,lung,Academic Lab / Achilles,5.322135451
+RL95-2,endometrium,ATCC,5.246996781
+CAL-29,urinary_tract,DSMZ,5.064105021
+JHUEM-3,endometrium,RIKEN,5.049499136
+COLO-680N,oesophagus,DSMZ,4.984911303
+NCI-H2347,lung,ATCC,4.984274315
+HSC-4,upper_aerodigestive_tract,HSRRB,4.801822847
+HuH-6,liver,RIKEN,4.684716461
+HCC-2814,lung,Academic Lab / Achilles,4.682537526
+CAL-51,breast,DSMZ,4.403029814
+SNU-1197,large_intestine,KCLB,4.242755341
+HEC-59,endometrium,HSRRB,4.100401583
+A-253,salivary_gland,ATCC,4.052353594
+OVTOKO,ovary,HSRRB,4.03393594
+NCI-H1573,lung,ATCC,3.998952217
+OE33,oesophagus,ECACC,3.960147909
+MOLM-16,haematopoietic_and_lymphoid_tissue,DSMZ,3.681627258
+Panc 05.04,pancreas,ATCC,3.599326475
+NCI-N87,stomach,ATCC,3.552670761
+KYSE-510,oesophagus,DSMZ,3.509259913
+HCC2157,breast,ATCC,3.420381722
+KNS-62,lung,HSRRB,3.359201566
+Capan-2,pancreas,ATCC,3.349689734
+LS411N,large_intestine,ATCC,3.295474895
+NCI-H2444,lung,ATCC,3.113625317
+JH-EsoAd1,oesophagus,Academic Lab / Achilles,3.012043236
+SNU-216,stomach,KCLB,3.006516194
+PE/CA-PJ41 (clone D2),upper_aerodigestive_tract,ECACC,2.923815415
+TE-15,oesophagus,RIKEN,2.863974257
+LS 180,large_intestine,ATCC,2.842070127
+HEC-251,endometrium,HSRRB,2.83333833
+HSC-2,upper_aerodigestive_tract,HSRRB,2.820720809
+SCC-25,upper_aerodigestive_tract,ATCC,2.79088239
+PK-1,pancreas,RIKEN,2.686001091
+PC-14,lung,RIKEN,2.65294424
+SNU-601,stomach,KCLB,2.568728623
+VCaP,prostate,ATCC,2.565484704
+RERF-LC-KJ,lung,HSRRB,2.521285597
+NCI-H1869,lung,ATCC,2.512018616
+NCI-H1650,lung,ATCC,2.505029333
+Panc 04.03,pancreas,ATCC,2.503938712
+RMUG-S,ovary,HSRRB,2.478755047
+JHOS-2,ovary,RIKEN,2.470089376
+OVMANA,ovary,HSRRB,2.457124806
+TE-4,oesophagus,RIKEN,2.381620652
+Detroit 562,upper_aerodigestive_tract,ATCC,2.330525393
+OVKATE,ovary,HSRRB,2.326297616
+SNU-520,stomach,KCLB,2.278725558
+SNU-1040,large_intestine,KCLB,2.218184512
+NCI-H1437,lung,ATCC,2.198980441
+SNU-5,stomach,ATCC,2.158129875
+23132/87,stomach,DSMZ,2.097846159
+SNU-C2A,large_intestine,ATCC,2.09618046
+FaDu,upper_aerodigestive_tract,ATCC,2.021733302
+CAL-85-1,breast,DSMZ,2.020028164
+HT-1197,urinary_tract,ATCC,2.020020291
+KYSE-30,oesophagus,DSMZ,1.998548467
+ZR-75-30,breast,ATCC,1.941784806
+NCI-H1734,lung,ATCC,1.76487216
+GP2d,large_intestine,ECACC,1.702882848
+Panc 08.13,pancreas,ATCC,1.669273336
+HPAC,pancreas,ATCC,1.616237405
+NCI-H1666,lung,ATCC,1.606614921
+COLO 201,large_intestine,ATCC,1.584679207
+HCC1419,breast,ATCC,1.562842581
+RMG-I,ovary,HSRRB,1.54667
+TE-11,oesophagus,RIKEN,1.510339091
+RERF-LC-Ad1,lung,HSRRB,1.509658857
+HuG1-N,stomach,RIKEN,1.403891311
+NCI-H747,large_intestine,ATCC,1.385703677
+SNU-407,large_intestine,KCLB,1.301101503
+NCI-H1568,lung,ATCC,1.176161188
+Hep G2,liver,ATCC,1.139195656
+Hs 766T,pancreas,ATCC,1.111374105
+OVK18,ovary,RIKEN,1.091326545
+HT-1376,urinary_tract,ATCC,1.024821036
+SNU-478,biliary_tract,KCLB,1.014588591
+HCC38,breast,ATCC,1.00389165
+SCC-4,upper_aerodigestive_tract,ATCC,0.982155722
+NCI-H2291,lung,ATCC,0.972487686
+SNU-8,ovary,KCLB,0.940236404
+NCI-H292,lung,ATCC,0.88139554
+NCI-H2110,lung,ATCC,0.880444516
+BICR 16,upper_aerodigestive_tract,ECACC,0.868568386
+HEC-50B,endometrium,HSRRB,0.835092099
+MDA-MB-415,breast,ATCC,0.828920658
+LC-1F,lung,RIKEN,0.8188875
+OVCAR-4,ovary,NCI/DCTD,0.793718745
+M-07e,haematopoietic_and_lymphoid_tissue,DSMZ,0.735488427
+SCaBER,urinary_tract,ATCC,0.729419445
+DMS 79,lung,ATCC,0.718012813
+OE21,oesophagus,ECACC,0.705193946
+OAW42,ovary,ECACC,0.685495561
+A-704,kidney,ATCC,0.681741481
+VMRC-RCZ,kidney,HSRRB,0.674178843
+MFE-280,endometrium,DSMZ,0.668044618
+PA-TU-8988S,pancreas,DSMZ,0.659025709
+RERF-LC-Ad2,lung,HSRRB,0.655765817
+SLR 23,kidney,Academic Lab / Achilles,0.643787057
+VM-CUB1,urinary_tract,DSMZ,0.643076476
+NCI-H2087,lung,ATCC,0.64038923
+PK-59,pancreas,RIKEN,0.610627991
+HEC-1-A,endometrium,ATCC,0.588273544
+HMEL,breast,Academic Lab / Achilles,0.582523653
+SNU-175,large_intestine,KCLB,0.579242161
+EFO-21,ovary,DSMZ,0.570665974
+HCC-95,lung,KCLB,0.564867059
+HuH-7,liver,HSRRB,0.559022427
+TOV-21G,ovary,ATCC,0.540090301
+MKN7,stomach,RIKEN,0.531206732
+NCI-H358,lung,ATCC,0.524845434
+MKN1,stomach,HSRRB,0.513113375
+OE19,oesophagus,ECACC,0.496100118
+ACHN,kidney,ATCC,0.481288224
+KM12,large_intestine,Academic Lab,0.472793252
+SW620,large_intestine,ATCC,0.469329759
+SNU-1196,biliary_tract,KCLB,0.458943475
+MDA-MB-361,breast,ATCC,0.44224188
+YD-10B,upper_aerodigestive_tract,KCLB,0.436201059
+Set-2,haematopoietic_and_lymphoid_tissue,DSMZ,0.432239535
+NCI-H854,lung,KCLB,0.424562977
+Hs 294T,skin,ATCC,0.389855057
+SUIT-2,pancreas,HSRRB,0.38801294
+NCI-H727,lung,ATCC,0.386426064
+HT-29,large_intestine,ATCC,0.382425492
+UACC-812,breast,ATCC,0.381997713
+SNU-449,liver,ATCC,0.376563137
+NCI-H322,lung,ECACC,0.376513055
+HCC-1195,lung,KCLB,0.374303238
+SW48,large_intestine,ATCC,0.371816475
+Caov-3,ovary,ATCC,0.36962102
+EFM-192A,breast,DSMZ,0.368476263
+SK-BR-3,breast,ATCC,0.357042663
+TE-10,oesophagus,RIKEN,0.343479314
+SCC-9,upper_aerodigestive_tract,ATCC,0.342555063
+PE/CA-PJ49,upper_aerodigestive_tract,ECACC,0.335874019
+Ishikawa (Heraklio) 02 ER-,endometrium,ECACC,0.335238535
+YD-38,upper_aerodigestive_tract,KCLB,0.321471392
+KMRC-20,kidney,HSRRB,0.317449336
+EC-GI-10,oesophagus,RIKEN,0.312233027
+SNU-620,stomach,KCLB,0.30867339
+TT,thyroid,ATCC,0.302859985
+TE-6,oesophagus,RIKEN,0.299405286
+LCLC-97TM1,lung,DSMZ,0.296153433
+KYSE-520,oesophagus,DSMZ,0.292800912
+COR-L23,lung,ECACC,0.290191814
+NCI-H1048,lung,ATCC,0.287762841
+Caov-4,ovary,ATCC,0.266452341
+NCO2,haematopoietic_and_lymphoid_tissue,HSRRB,0.264837854
+GSS,stomach,RIKEN,0.26395715
+NIH:OVCAR-3,ovary,ATCC,0.262165257
+HCC-1171,lung,KCLB,0.250783192
+BT-474,breast,ATCC,0.248297688
+TGBC11TKB,stomach,RIKEN,0.246564096
+KYSE-140,oesophagus,DSMZ,0.243725429
+KYSE-150,oesophagus,DSMZ,0.229512067
+NCI-H1618,lung,ATCC,0.225554633
+SALE,lung,Academic Lab / Achilles,0.219087611
+KURAMOCHI,ovary,HSRRB,0.218107337
+T-47D,breast,ATCC,0.21158986
+PC-3,prostate,ATCC,0.211581713
+ONCO-DG-1,ovary,DSMZ,0.206031528
+Panc 02.03,pancreas,ATCC,0.204520285
+NCI-H510,lung,ATCC,0.203607149
+KYSE-410,oesophagus,DSMZ,0.201132741
+NCI-H660,prostate,ATCC,0.199793517
+NCI-H526,lung,ATCC,0.198447508
+HCC1599,breast,ATCC,0.194462402
+HCC2218,breast,ATCC,0.191988286
+KU812,haematopoietic_and_lymphoid_tissue,ATCC,0.190966133
+Panc 03.27,pancreas,ATCC,0.189255083
+DAN-G,pancreas,DSMZ,0.18342477
+CL-11,large_intestine,DSMZ,0.181597214
+PA-TU-8902,pancreas,DSMZ,0.180846305
+CJM,skin,RIKEN,0.179839102
+5637,urinary_tract,ATCC,0.179050247
+SNU-840,ovary,KCLB,0.178650975
+OVSAHO,ovary,HSRRB,0.176762423
+NCI-H1836,lung,ATCC,0.173418231
+AGS,stomach,ATCC,0.170047185
+DMS 53,lung,ATCC,0.169542941
+DMS 153,lung,ATCC,0.169325311
+HCC-366,lung,DSMZ,0.161317793
+NCI-H1355,lung,ATCC,0.161185686
+NCI-H1623,lung,ATCC,0.158740223
+KYSE-270,oesophagus,DSMZ,0.152723989
+NCI-H1105,lung,ATCC,0.147118877
+KALS-1,central_nervous_system,HSRRB,0.140079681
+JK-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.13979301
+EFE-184,endometrium,DSMZ,0.139378876
+MDA-MB-231,breast,ATCC,0.134196315
+SNU-761,liver,KCLB,0.130974947
+SK-MEL-31,skin,ATCC,0.125883178
+OCI-M1,haematopoietic_and_lymphoid_tissue,DSMZ,0.123851054
+L3.3,pancreas,Academic Lab,0.123180186
+HUP-T3,pancreas,DSMZ,0.122953913
+ChaGo-K-1,lung,ECACC,0.122245288
+NCI-H716,large_intestine,ATCC,0.119925628
+KYSE-450,oesophagus,DSMZ,0.118864062
+NCI-H2106,lung,ATCC,0.113613063
+KLE,endometrium,ATCC,0.112759384
+HCC-78,lung,DSMZ,0.111845977
+ML-1,thyroid,DSMZ,0.110176919
+JIMT-1,breast,DSMZ,0.110134132
+DMS 454,lung,ECACC,0.110060255
+NCI-H1944,lung,ATCC,0.110001682
+COV644,ovary,ECACC,0.109391957
+PLC/PRF/5,liver,ATCC,0.109231506
+NCI-H1651,lung,ATCC,0.108477826
+HuCCT1,biliary_tract,HSRRB,0.102764047
+HCC1143,breast,ATCC,0.101904201
+NCI-H2009,lung,ATCC,0.101072223
+KPL-1,breast,DSMZ,0.097230694
+JHOM-1,ovary,RIKEN,0.094533857
+HCC-33,lung,DSMZ,0.094029873
+SNG-M,endometrium,HSRRB,0.092777079
+Panc 10.05,pancreas,ATCC,0.090990434
+SW 1353,bone,ATCC,0.089300243
+COR-L88,lung,ECACC,0.086498633
+A101D,skin,ATCC,0.085756735
+WM-88,skin,Academic Lab,0.085415532
+MCF7,breast,ATCC,0.083141887
+22Rv1,prostate,ATCC,0.079080083
+JHH-5,liver,HSRRB,0.073887115
+CAL-148,breast,DSMZ,0.073797516
+NCI-H2085,lung,ATCC,0.073378999
+TCCSUP,urinary_tract,ATCC,0.072698908
+NUGC-3,stomach,HSRRB,0.072377228
+WM-266-4,skin,ATCC,0.072292556
+CAL-12T,lung,DSMZ,0.072121136
+NCI-H2228,lung,ATCC,0.071736981
+KP-N-RT-BM-1,autonomic_ganglia,HSRRB,0.070755041
+DV-90,lung,DSMZ,0.070038345
+MDA-MB-453,breast,ATCC,0.068675508
+EN,endometrium,DSMZ,0.068356129
+SW 900,lung,ATCC,0.06741039
+HEC-1-B,endometrium,ATCC,0.06648658
+COV362,ovary,ECACC,0.066415137
+MFE-319,endometrium,DSMZ,0.065911362
+COR-L24,lung,ECACC,0.064679694
+TE-1,oesophagus,RIKEN,0.064278829
+SNU-410,pancreas,KCLB,0.063965517
+NCI-H1694,lung,ATCC,0.063504944
+NCI-H211,lung,ATCC,0.063047152
+BT-483,breast,ATCC,0.061938995
+Hs 616.T,haematopoietic_and_lymphoid_tissue,ATCC,0.06124006
+COR-L311,lung,ECACC,0.060848372
+SNU-182,liver,ATCC,0.058593209
+NCI-H1341,lung,ATCC,0.058518989
+769-P,kidney,ATCC,0.057816305
+FU-OV-1,ovary,DSMZ,0.056575211
+KNS-42,central_nervous_system,HSRRB,0.056316223
+TCC-PAN2,pancreas,HSRRB,0.055559051
+HCC1428,breast,ATCC,0.052933194
+Caki-2,kidney,ATCC,0.051816486
+HCC1569,breast,ATCC,0.051322791
+HARA,lung,HSRRB,0.050985247
+MPP 89,pleura,ICLC,0.049542633
+NCI-H2029,lung,ATCC,0.049051989
+JHOC-5,ovary,RIKEN,0.048012682
+HCC1500,breast,ATCC,0.047643732
+SW 1783,central_nervous_system,ATCC,0.045140485
+JHH-7,liver,HSRRB,0.04380418
+SK-OV-3,ovary,ATCC,0.043325328
+UACC-257,skin,NCI/DCTD,0.043135661
+HSC-3,upper_aerodigestive_tract,HSRRB,0.042118303
+NCI-H1930,lung,ATCC,0.04083882
+TF-1,haematopoietic_and_lymphoid_tissue,ATCC,0.040301788
+TUHR10TKB,kidney,RIKEN,0.040140847
+OS-RC-2,kidney,RIKEN,0.039395756
+NCI-H1092,lung,ATCC,0.038814186
+NCI-H460,lung,ATCC,0.03859027
+PANC-1,pancreas,ATCC,0.036663704
+NCI-H2170,lung,ATCC,0.036524529
+NCI-H2073,lung,ATCC,0.036257604
+SK-MEL-5,skin,ATCC,0.035849751
+NCI-H1436,lung,ATCC,0.035203473
+SLR 26,kidney,Academic Lab / Achilles,0.035106777
+HCC827,lung,ATCC,0.034648243
+NCI-H1876,lung,ATCC,0.03418738
+COR-L95,lung,ECACC,0.033941005
+KP-N-YN,autonomic_ganglia,HSRRB,0.033878966
+Hs 852.T,skin,ATCC,0.033697302
+C32,skin,ATCC,0.03320092
+NMC-G1,central_nervous_system,HSRRB,0.032870579
+LN-319,central_nervous_system,Academic Lab / Achilles,0.031510095
+SK-RC-20,kidney,Academic Lab / Achilles,0.031476285
+RH-41,soft_tissue,DSMZ,0.03144442
+HEC-265,endometrium,HSRRB,0.031100709
+647-V,urinary_tract,DSMZ,0.030877871
+NCI-H520,lung,ATCC,0.030775289
+Sq-1,lung,RIKEN,0.030236766
+BC-3C,urinary_tract,DSMZ,0.030155478
+Malme-3M,skin,ATCC,0.029454584
+COLO 668,lung,ECACC,0.029389645
+MEG-01,haematopoietic_and_lymphoid_tissue,ATCC,0.028921376
+Daoy,central_nervous_system,ATCC,0.028379501
+SW-1710,urinary_tract,DSMZ,0.028276023
+HEC-108,endometrium,HSRRB,0.028071778
+COR-L279,lung,ECACC,0.027801689
+RVH-421,skin,DSMZ,0.027782052
+SK-MEL-28,skin,ATCC,0.02757338
+NCI-H524,lung,ATCC,0.027286076
+EFO-27,ovary,DSMZ,0.027247969
+JHH-6,liver,HSRRB,0.026900468
+NCI-H1963,lung,ATCC,0.026899953
+KMRC-3,kidney,HSRRB,0.026585749
+HCC-2279,lung,KCLB,0.025121714
+RD-ES,bone,ATCC,0.024727571
+LN-229,central_nervous_system,ATCC,0.024670753
+NCI-H647,lung,ATCC,0.024193006
+SLR 24,kidney,Academic Lab / Achilles,0.023832611
+NCI-H2023,lung,ATCC,0.023396723
+NCI-H1299,lung,ATCC,0.023111542
+K029AX,skin,Academic Lab,0.023099265
+CAL-120,breast,DSMZ,0.022914973
+KYSE-180,oesophagus,DSMZ,0.022817146
+T3M-10,lung,RIKEN,0.022770613
+NH-6,autonomic_ganglia,HSRRB,0.022757154
+CA46,haematopoietic_and_lymphoid_tissue,ATCC,0.022466384
+ECC10,stomach,RIKEN,0.022427198
+HMCB,skin,ATCC,0.022303746
+OPM-2,haematopoietic_and_lymphoid_tissue,DSMZ,0.022125435
+NCI-H1975,lung,ATCC,0.021667057
+Hep 3B2.1-7,liver,ATCC,0.021651591
+SNU-201,central_nervous_system,KCLB,0.021261392
+LK-2,lung,RIKEN,0.021090015
+WM-793,skin,Academic Lab,0.020967002
+PEER,haematopoietic_and_lymphoid_tissue,HSRRB,0.020932398
+SK-MES-1,lung,ATCC,0.020774401
+SW480,large_intestine,ATCC,0.020647138
+IST-MES2,pleura,ICLC,0.020448435
+NCI-H2030,lung,ATCC,0.020163623
+KNS-81,central_nervous_system,HSRRB,0.020144245
+NCI-H2196,lung,ATCC,0.019995905
+HOS,bone,ATCC,0.019891927
+LNZ308,central_nervous_system,Academic Lab / Achilles,0.019825221
+NCI-H1184,lung,ATCC,0.019733764
+DBTRG-05MG,central_nervous_system,ATCC,0.019597199
+QGP-1,pancreas,HSRRB,0.018794753
+KP-3,pancreas,HSRRB,0.018435784
+EB1,haematopoietic_and_lymphoid_tissue,ATCC,0.018431837
+K-562,haematopoietic_and_lymphoid_tissue,ATCC,0.018275322
+NCI-H2171,lung,ATCC,0.018046823
+ONS-76,central_nervous_system,HSRRB,0.017983205
+KMS-20,haematopoietic_and_lymphoid_tissue,HSRRB,0.017907335
+MCAS,ovary,HSRRB,0.0175199
+PrEC LH,prostate,Academic Lab / Achilles,0.01750248
+NCI-H2172,lung,ATCC,0.017499129
+A-375,skin,ATCC,0.017494865
+PK-45H,pancreas,RIKEN,0.017481437
+Loucy,haematopoietic_and_lymphoid_tissue,ATCC,0.017351129
+MOLP-8,haematopoietic_and_lymphoid_tissue,DSMZ,0.016846261
+CADO-ES1,bone,DSMZ,0.016686748
+UOK101,kidney,Academic Lab / Achilles,0.016684149
+SH-4,skin,ATCC,0.016645151
+SNU-626,central_nervous_system,KCLB,0.016510439
+A-673,bone,ATCC,0.016488924
+COV318,ovary,ECACC,0.016465618
+FTC-133,thyroid,ECACC,0.016438203
+A3/KAW,haematopoietic_and_lymphoid_tissue,HSRRB,0.016317725
+COV434,ovary,ECACC,0.016176436
+MDA-MB-134-VI,breast,ATCC,0.016137833
+HCT-15,large_intestine,ATCC,0.015918684
+MOLT-13,haematopoietic_and_lymphoid_tissue,DSMZ,0.015460992
+CAL-78,bone,DSMZ,0.015070349
+Saos-2,bone,ATCC,0.015005856
+HEC-151,endometrium,HSRRB,0.014521722
+HPB-ALL,haematopoietic_and_lymphoid_tissue,DSMZ,0.01451369
+F-36P,haematopoietic_and_lymphoid_tissue,DSMZ,0.014364637
+SW 1990,pancreas,ATCC,0.014183811
+KASUMI-2,haematopoietic_and_lymphoid_tissue,DSMZ,0.014130542
+SLR 25,kidney,Academic Lab / Achilles,0.014038468
+NCI-H1693,lung,ATCC,0.013947927
+RS4;11,haematopoietic_and_lymphoid_tissue,ATCC,0.013820039
+CAMA-1,breast,ATCC,0.013644119
+COLO 829,skin,ATCC,0.013637658
+SUP-T1,haematopoietic_and_lymphoid_tissue,ATCC,0.013532871
+SUP-M2,haematopoietic_and_lymphoid_tissue,DSMZ,0.013490075
+SU-DHL-6,haematopoietic_and_lymphoid_tissue,DSMZ,0.013395483
+SNU-46,upper_aerodigestive_tract,KCLB,0.013332623
+Hs 944.T,skin,ATCC,0.013286472
+P31/FUJ,haematopoietic_and_lymphoid_tissue,HSRRB,0.013285271
+NCI-H23,lung,ATCC,0.013242527
+EPLC-272H,lung,DSMZ,0.013228071
+G-361,skin,ATCC,0.013102827
+SNU-886,liver,KCLB,0.012932602
+COLO-783,skin,DSMZ,0.012925896
+KELLY,autonomic_ganglia,DSMZ,0.012853101
+KMS-11,haematopoietic_and_lymphoid_tissue,HSRRB,0.012551201
+COLO-320,large_intestine,DSMZ,0.012420511
+FTC-238,thyroid,ECACC,0.012393642
+NCI-H1563,lung,ATCC,0.012234411
+TUHR14TKB,kidney,RIKEN,0.012187717
+SU-DHL-5,haematopoietic_and_lymphoid_tissue,DSMZ,0.01212037
+SU-DHL-8,haematopoietic_and_lymphoid_tissue,DSMZ,0.01193839
+SK-N-DZ,autonomic_ganglia,ATCC,0.011755497
+LOU-NH91,lung,DSMZ,0.011753316
+OELE,ovary,Academic Lab / Achilles,0.011718315
+SK-MEL-1,skin,ATCC,0.011646482
+Hs 172.T,urinary_tract,ATCC,0.011604917
+SU-DHL-10,haematopoietic_and_lymphoid_tissue,DSMZ,0.011563558
+KG-1-C,central_nervous_system,HSRRB,0.01153348
+L-1236,haematopoietic_and_lymphoid_tissue,DSMZ,0.011476514
+SK-N-BE(2),autonomic_ganglia,ATCC,0.011377701
+ECC12,stomach,RIKEN,0.011187824
+YKG1,central_nervous_system,HSRRB,0.011102629
+SLR 21,kidney,Academic Lab / Achilles,0.011058518
+EFM-19,breast,DSMZ,0.010883013
+UACC-62,skin,NCI/DCTD,0.010669493
+Hs 939.T,skin,ATCC,0.010655351
+NCI-H2081,lung,ATCC,0.010505486
+NCI-H209,lung,ATCC,0.010425393
+KARPAS-620,haematopoietic_and_lymphoid_tissue,DSMZ,0.010399039
+IPC-298,skin,DSMZ,0.010304986
+DU 145,prostate,ATCC,0.01029995
+KYO-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.010296451
+SK-N-FI,autonomic_ganglia,ATCC,0.010279032
+VMRC-RCW,kidney,RIKEN,0.010275186
+SF-295,central_nervous_system,NCI/DCTD,0.010231413
+COLO 741,skin,ECACC,0.010214591
+EWS502,bone,Academic Lab / Achilles,0.010162768
+HEK TE,kidney,Academic Lab / Achilles,0.010069286
+LMSU,stomach,RIKEN,0.009938681
+IGR-1,skin,DSMZ,0.009840207
+NCI-H1385,lung,ATCC,0.009654312
+SK-ES-1,bone,ATCC,0.009645229
+COLO-679,skin,DSMZ,0.009611491
+U-251 MG,central_nervous_system,HSRRB,0.009586094
+SNU-1105,central_nervous_system,KCLB,0.009462997
+Hs 578T,breast,ATCC,0.009420683
+253J,urinary_tract,KCLB,0.009187551
+GRANTA-519,haematopoietic_and_lymphoid_tissue,DSMZ,0.009182748
+AML-193,haematopoietic_and_lymphoid_tissue,ATCC,0.00896242
+GB-1,central_nervous_system,HSRRB,0.00888126
+NB-1,autonomic_ganglia,HSRRB,0.008853051
+RERF-LC-AI,lung,RIKEN,0.008842529
+FU97,stomach,HSRRB,0.008713269
+ESS-1,endometrium,DSMZ,0.008712977
+LAMA-84,haematopoietic_and_lymphoid_tissue,DSMZ,0.008690503
+BEN,lung,DSMZ,0.008675811
+SCLC-21H,lung,DSMZ,0.008658082
+U343,central_nervous_system,Academic Lab / Achilles,0.008601086
+KP4,pancreas,RIKEN,0.008566159
+NCI-H1339,lung,ATCC,0.008563997
+LN-215,central_nervous_system,Academic Lab / Achilles,0.008288359
+MHH-ES-1,bone,DSMZ,0.008167194
+SNU-1272,kidney,KCLB,0.008071323
+EBC-1,lung,RIKEN,0.007941687
+ZR-75-1,breast,ATCC,0.007911972
+SK-MEL-30,skin,DSMZ,0.007908491
+GAMG,central_nervous_system,DSMZ,0.007897462
+LN-235,central_nervous_system,Academic Lab / Achilles,0.007840906
+HCC1395,breast,ATCC,0.007727319
+NCI-H1395,lung,ATCC,0.007667925
+SF-172,central_nervous_system,Academic Lab / Achilles,0.007627479
+IMR-32,autonomic_ganglia,ATCC,0.007573247
+SUP-T11,haematopoietic_and_lymphoid_tissue,DSMZ,0.007563348
+JHH-2,liver,HSRRB,0.00755668
+NCI-H1755,lung,ATCC,0.007528587
+SNU-324,pancreas,KCLB,0.007513269
+A-498,kidney,ATCC,0.007404244
+MFE-296,endometrium,DSMZ,0.007385572
+KE-37,haematopoietic_and_lymphoid_tissue,DSMZ,0.007371174
+DU4475,breast,ATCC,0.007317521
+TE 125.T,soft_tissue,ATCC,0.007191071
+MDA-MB-436,breast,ATCC,0.007086647
+CML-T1,haematopoietic_and_lymphoid_tissue,DSMZ,0.007064518
+Hs 683,central_nervous_system,ATCC,0.007002205
+RERF-LC-MS,lung,HSRRB,0.006972586
+NCI-H1793,lung,ATCC,0.006923111
+D341 Med,central_nervous_system,ATCC,0.006876055
+KYM-1,soft_tissue,HSRRB,0.00681139
+WM-983B,skin,Academic Lab,0.006739499
+DMS 273,lung,ECACC,0.006735526
+MM1-S,haematopoietic_and_lymphoid_tissue,Academic Lab,0.006706637
+IGR-37,skin,DSMZ,0.006689187
+H4,central_nervous_system,ATCC,0.006583238
+SW 1088,central_nervous_system,ATCC,0.006522205
+SU-DHL-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.006464047
+BFTC-909,kidney,DSMZ,0.006433986
+253J-BV,urinary_tract,KCLB,0.006420495
+SK-N-MC,bone,ATCC,0.006379682
+HT-144,skin,ATCC,0.006373939
+NCI-H810,lung,ATCC,0.006301859
+SEM,haematopoietic_and_lymphoid_tissue,DSMZ,0.006287328
+NCI-H28,pleura,ATCC,0.006252889
+LCLC-103H,lung,DSMZ,0.0061768
+Hs 936.T,skin,ATCC,0.006148949
+HuTu 80,small_intestine,ATCC,0.006035568
+LP-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.005988995
+AN3 CA,endometrium,ATCC,0.005952113
+59M,ovary,ECACC,0.005941322
+JeKo-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.005940308
+NCI-H146,lung,ATCC,0.005939367
+SNU-489,central_nervous_system,KCLB,0.005937038
+P12-ICHIKAWA,haematopoietic_and_lymphoid_tissue,DSMZ,0.005859043
+NCI-H1838,lung,ATCC,0.005833388
+NCI-H446,lung,ATCC,0.005826221
+BDCM,haematopoietic_and_lymphoid_tissue,ATCC,0.005735291
+KCL-22,haematopoietic_and_lymphoid_tissue,DSMZ,0.005728318
+RCH-ACV,haematopoietic_and_lymphoid_tissue,DSMZ,0.005725847
+Calu-1,lung,ATCC,0.00570415
+HCC-15,lung,DSMZ,0.005608147
+MJ,haematopoietic_and_lymphoid_tissue,ATCC,0.005605221
+BL-41,haematopoietic_and_lymphoid_tissue,DSMZ,0.005560512
+SK-MEL-3,skin,ATCC,0.005535379
+8305C,thyroid,DSMZ,0.005516928
+NCI-H1915,lung,ATCC,0.005501805
+NALM-19,haematopoietic_and_lymphoid_tissue,DSMZ,0.005475015
+CAL-54,kidney,DSMZ,0.005441278
+YD-8,upper_aerodigestive_tract,KCLB,0.005418192
+NCI-H929,haematopoietic_and_lymphoid_tissue,ATCC,0.005355244
+ACC-MESO-1,pleura,RIKEN,0.005322464
+S-117,soft_tissue,DSMZ,0.005273668
+A549,lung,ATCC,0.005250606
+RS-5,pleura,DSMZ,0.005195584
+COLO 792,skin,ECACC,0.005186355
+KMS-34,haematopoietic_and_lymphoid_tissue,HSRRB,0.005157318
+MEL-HO,skin,DSMZ,0.005109707
+THP-1,haematopoietic_and_lymphoid_tissue,ATCC,0.005082967
+RPMI 8226,haematopoietic_and_lymphoid_tissue,ATCC,0.005066155
+COR-L105,lung,ECACC,0.00501699
+NCI-H889,lung,ATCC,0.005016315
+SJSA-1,bone,ATCC,0.005013858
+T98G,central_nervous_system,ATCC,0.005002696
+OCI-AML3,haematopoietic_and_lymphoid_tissue,DSMZ,0.005001877
+SK-MEL-24,skin,ATCC,0.004975948
+Hs 870.T,bone,ATCC,0.004817837
+KM-H2,haematopoietic_and_lymphoid_tissue,DSMZ,0.004800575
+NCI-H1792,lung,ATCC,0.004710351
+8-MG-BA,central_nervous_system,DSMZ,0.004707693
+HEC-6,endometrium,HSRRB,0.004672049
+Hey-A8,ovary,Academic Lab,0.00462733
+SF126,central_nervous_system,HSRRB,0.004598696
+T24,urinary_tract,ATCC,0.004594691
+MDST8,large_intestine,ECACC,0.004576075
+SIMA,autonomic_ganglia,DSMZ,0.004536045
+U-87 MG,central_nervous_system,ATCC,0.004507316
+M059K,central_nervous_system,ATCC,0.004484687
+Hs 255.T,large_intestine,ATCC,0.004465627
+697,haematopoietic_and_lymphoid_tissue,DSMZ,0.004463289
+RCC10RGB,kidney,RIKEN,0.004455126
+P3HR-1,haematopoietic_and_lymphoid_tissue,ATCC,0.004414061
+SK-N-AS,autonomic_ganglia,ATCC,0.004317806
+MOLP-2,haematopoietic_and_lymphoid_tissue,DSMZ,0.004311743
+HCC-1438,lung,KCLB,0.004289593
+NOMO-1,haematopoietic_and_lymphoid_tissue,HSRRB,0.004238071
+KMS-26,haematopoietic_and_lymphoid_tissue,HSRRB,0.004234651
+JM1,haematopoietic_and_lymphoid_tissue,ATCC,0.004166745
+IGR-39,skin,DSMZ,0.004154571
+SK-LMS-1,soft_tissue,ATCC,0.004122642
+GOS-3,central_nervous_system,DSMZ,0.004121902
+TUHR4TKB,kidney,RIKEN,0.004119657
+TE-8,oesophagus,RIKEN,0.004098515
+B-CPAP,thyroid,DSMZ,0.004051022
+MUTZ-5,haematopoietic_and_lymphoid_tissue,DSMZ,0.004028196
+NCI-H1703,lung,ATCC,0.00401776
+Pfeiffer,haematopoietic_and_lymphoid_tissue,ATCC,0.004006319
+NAMALWA,haematopoietic_and_lymphoid_tissue,ATCC,0.003954225
+Caki-1,kidney,ATCC,0.003926013
+J82,urinary_tract,ATCC,0.003923812
+RPMI-8402,haematopoietic_and_lymphoid_tissue,DSMZ,0.003917068
+SBC-5,lung,HSRRB,0.003847656
+Hs 834.T,skin,ATCC,0.003842844
+U-2 OS,bone,ATCC,0.003813517
+SH-10-TC,stomach,RIKEN,0.003794273
+RPMI-7951,skin,ATCC,0.003733643
+MDA-MB-157,breast,ATCC,0.003710942
+SW 1271,lung,ATCC,0.003634477
+OV56,ovary,ECACC,0.003626841
+G-402,soft_tissue,ATCC,0.003604477
+ES-2,ovary,ATCC,0.003603892
+NALM-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.003598435
+GDM-1,haematopoietic_and_lymphoid_tissue,ATCC,0.003594952
+MOLM-6,haematopoietic_and_lymphoid_tissue,DSMZ,0.003566646
+HCC-44,lung,DSMZ,0.003517241
+NCI-H226,lung,ATCC,0.003493179
+U-178,central_nervous_system,Academic Lab / Achilles,0.003448117
+COLO 684,endometrium,ECACC,0.003401455
+Daudi,haematopoietic_and_lymphoid_tissue,ATCC,0.003382478
+SNU-423,liver,ATCC,0.003375637
+Hs 675.T,large_intestine,ATCC,0.003364384
+SNU-1,stomach,ATCC,0.003340448
+OCI-AML5,haematopoietic_and_lymphoid_tissue,DSMZ,0.003321056
+JURL-MK1,haematopoietic_and_lymphoid_tissue,DSMZ,0.003285643
+BHT-101,thyroid,DSMZ,0.003276985
+MUTZ-3,haematopoietic_and_lymphoid_tissue,DSMZ,0.003267205
+U-937,haematopoietic_and_lymphoid_tissue,ATCC,0.003258183
+SNU-475,liver,ATCC,0.003249207
+JHH-4,liver,HSRRB,0.003220136
+BCP-1,haematopoietic_and_lymphoid_tissue,ATCC,0.003159652
+SLR 20,kidney,Academic Lab / Achilles,0.003146621
+TC-71,bone,DSMZ,0.003133542
+SNU-398,liver,ATCC,0.003122359
+MOLM-13,haematopoietic_and_lymphoid_tissue,DSMZ,0.00311272
+A2058,skin,ATCC,0.003105324
+SNU-1079,biliary_tract,KCLB,0.00309342
+MDA-MB-435S,skin,ATCC,0.0030819
+KMS-18,haematopoietic_and_lymphoid_tissue,,0.003064349
+AMO-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.003054107
+KMRC-1,kidney,HSRRB,0.003024631
+LU99,lung,HSRRB,0.003024047
+639-V,urinary_tract,DSMZ,0.003012919
+SK-N-SH,autonomic_ganglia,ATCC,0.003009928
+Hs 695T,skin,ATCC,0.002991193
+MOLT-16,haematopoietic_and_lymphoid_tissue,DSMZ,0.002972302
+LOX IMVI,skin,NCI/DCTD,0.002952625
+Hs 739.T,breast,ATCC,0.002947465
+SR-786,haematopoietic_and_lymphoid_tissue,DSMZ,0.002865349
+MHH-CALL-4,haematopoietic_and_lymphoid_tissue,DSMZ,0.002861149
+COR-L47,lung,ECACC,0.002858587
+REC-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.002842993
+NCI-H2052,pleura,ATCC,0.0028022
+NCI-H1155,lung,ATCC,0.00277752
+SK-LU-1,lung,ATCC,0.002748699
+RKN,soft_tissue,HSRRB,0.002721534
+PA-TU-8988T,pancreas,DSMZ,0.002712112
+L-363,haematopoietic_and_lymphoid_tissue,DSMZ,0.002705781
+Hs 751.T,haematopoietic_and_lymphoid_tissue,ATCC,0.00270383
+BL-70,haematopoietic_and_lymphoid_tissue,DSMZ,0.002700457
+KNS-60,central_nervous_system,HSRRB,0.002694292
+TYK-nu,ovary,HSRRB,0.00268745
+NCI-H1373,lung,ATCC,0.00268719
+NCI-H69,lung,ATCC,0.002675239
+AM-38,central_nervous_system,HSRRB,0.002661103
+Toledo,haematopoietic_and_lymphoid_tissue,ATCC,0.002653506
+MHH-NB-11,autonomic_ganglia,DSMZ,0.002619435
+SNU-349,kidney,KCLB,0.002573216
+COLO-800,skin,DSMZ,0.002569519
+huH-1,liver,HSRRB,0.002535223
+G-401,soft_tissue,ATCC,0.002448986
+Hs 840.T,upper_aerodigestive_tract,ATCC,0.002441275
+LN382,central_nervous_system,Academic Lab / Achilles,0.002400216
+SNU-685,endometrium,KCLB,0.002379527
+MHH-CALL-3,haematopoietic_and_lymphoid_tissue,DSMZ,0.002323652
+L-540,haematopoietic_and_lymphoid_tissue,DSMZ,0.002293172
+RH-18,soft_tissue,DSMZ,0.002260516
+KHM-1B,haematopoietic_and_lymphoid_tissue,HSRRB,0.002236816
+JURKAT,haematopoietic_and_lymphoid_tissue,DSMZ,0.002236495
+JMSU-1,urinary_tract,DSMZ,0.002227402
+EOL-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.002210349
+KARPAS-422,haematopoietic_and_lymphoid_tissue,DSMZ,0.002201099
+DEL,haematopoietic_and_lymphoid_tissue,DSMZ,0.002195894
+RERF-LC-Sq1,lung,HSRRB,0.002171564
+HMC-1-8,breast,HSRRB,0.002150366
+HLF,liver,HSRRB,0.002147744
+A4/Fuk,haematopoietic_and_lymphoid_tissue,HSRRB,0.002080176
+TM-31,central_nervous_system,RIKEN,0.002068154
+OCI-LY3,haematopoietic_and_lymphoid_tissue,Academic Lab,0.002057963
+Kasumi-6,haematopoietic_and_lymphoid_tissue,ATCC,0.002029884
+OC 314,ovary,ICLC,0.002022808
+RH-30,soft_tissue,DSMZ,0.001972448
+TO 175.T,haematopoietic_and_lymphoid_tissue,ATCC,0.001970178
+KS-1,central_nervous_system,HSRRB,0.001967464
+MSTO-211H,pleura,ATCC,0.00194134
+HT-1080,soft_tissue,ATCC,0.001932679
+ST486,haematopoietic_and_lymphoid_tissue,ATCC,0.001927109
+KOPN-8,haematopoietic_and_lymphoid_tissue,DSMZ,0.001922551
+JHUEM-2,endometrium,RIKEN,0.001915584
+NB-4,haematopoietic_and_lymphoid_tissue,DSMZ,0.001904079
+SNU-387,liver,ATCC,0.001880328
+8505C,thyroid,HSRRB,0.001868729
+Reh,haematopoietic_and_lymphoid_tissue,ATCC,0.001860868
+NCI-H650,lung,ATCC,0.001856947
+KMS-21BM,haematopoietic_and_lymphoid_tissue,HSRRB,0.001839389
+MEL-JUSO,skin,DSMZ,0.001831451
+PF-382,haematopoietic_and_lymphoid_tissue,DSMZ,0.001824692
+KMS-12-BM,haematopoietic_and_lymphoid_tissue,DSMZ,0.001803692
+Ki-JK,haematopoietic_and_lymphoid_tissue,HSRRB,0.001784012
+IST-MES1,pleura,ICLC,0.001782518
+EJM,haematopoietic_and_lymphoid_tissue,DSMZ,0.001766833
+ALL-SIL,haematopoietic_and_lymphoid_tissue,DSMZ,0.001759006
+NCI-H1581,lung,ATCC,0.0017545
+NCI-H82,lung,ATCC,0.001744225
+SIG-M5,haematopoietic_and_lymphoid_tissue,DSMZ,0.001692762
+KP-N-SI9s,autonomic_ganglia,HSRRB,0.001678346
+KO52,haematopoietic_and_lymphoid_tissue,HSRRB,0.001674888
+SNU-668,stomach,KCLB,0.00167347
+Hs 746T,stomach,ATCC,0.001659023
+OCI-AML2,haematopoietic_and_lymphoid_tissue,DSMZ,0.001639462
+SHP-77,lung,ATCC,0.001633795
+HuT 102,haematopoietic_and_lymphoid_tissue,ATCC,0.001629914
+"G-292, clone A141B1",bone,ATCC,0.001613461
+LN-443,central_nervous_system,Academic Lab / Achilles,0.001578699
+TIG-3 TD,lung,Academic Lab / Achilles,0.001569462
+GMS-10,central_nervous_system,DSMZ,0.001562919
+Hs 863.T,bone,ATCC,0.001538969
+WM1799,skin,Academic Lab,0.001522901
+SW579,thyroid,ATCC,0.001522508
+MONO-MAC-6,haematopoietic_and_lymphoid_tissue,DSMZ,0.001521131
+Hs 611.T,haematopoietic_and_lymphoid_tissue,ATCC,0.001519429
+DB,haematopoietic_and_lymphoid_tissue,ATCC,0.001511363
+CMK,haematopoietic_and_lymphoid_tissue,DSMZ,0.001509726
+Hs 742.T,breast,ATCC,0.001509473
+LN-464,central_nervous_system,Academic Lab / Achilles,0.001506024
+Hs 895.T,skin,ATCC,0.001503391
+HuNS1,haematopoietic_and_lymphoid_tissue,ATCC,0.001500105
+A2780,ovary,ECACC,0.001489411
+MV-4-11,haematopoietic_and_lymphoid_tissue,ATCC,0.001458166
+CHP-212,autonomic_ganglia,ATCC,0.001449488
+CAL-62,thyroid,DSMZ,0.001445825
+TT2609-C02,thyroid,DSMZ,0.001438124
+Hs 934.T,skin,ATCC,0.00143526
+SKM-1,haematopoietic_and_lymphoid_tissue,HSRRB,0.00142776
+HCC-2108,lung,KCLB,0.001404168
+SNU-738,central_nervous_system,KCLB,0.001351375
+Hs 606.T,breast,ATCC,0.001348962
+HLF-a,lung,ATCC,0.001347649
+TALL-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.001332909
+MHH-CALL-2,haematopoietic_and_lymphoid_tissue,DSMZ,0.001262519
+Mino,haematopoietic_and_lymphoid_tissue,ATCC,0.001255992
+NU-DUL-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.001215332
+NCI-H838,lung,ATCC,0.001210258
+KMS-27,haematopoietic_and_lymphoid_tissue,HSRRB,0.001177892
+T1-73,bone,ATCC,0.001149031
+MES-SA,soft_tissue,ATCC,0.001131588
+CHP-126,autonomic_ganglia,DSMZ,0.001066004
+EHEB,haematopoietic_and_lymphoid_tissue,DSMZ,0.001038238
+LU65,lung,HSRRB,0.001036498
+MIA PaCa-2,pancreas,ATCC,0.001027351
+BV-173,haematopoietic_and_lymphoid_tissue,DSMZ,0.000969867
+U-118 MG,central_nervous_system,ATCC,0.000929997
+HCC-1359,lung,KCLB,0.000891608
+NCI-H2227,lung,ATCC,0.000887206
+CI-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.000881501
+GA-10,haematopoietic_and_lymphoid_tissue,ATCC,0.000875603
+SUP-B15,haematopoietic_and_lymphoid_tissue,ATCC,0.000868542
+DMS 114,lung,ATCC,0.000853091
+OV7,ovary,ECACC,0.000826973
+Hs 698.T,large_intestine,ATCC,0.000799181
+WM-115,skin,ATCC,0.000792494
+NCI-H522,lung,ATCC,0.000778614
+SK-HEP-1,liver,ATCC,0.000754999
+Hs 600.T,skin,ATCC,0.000747269
+NCI-H841,lung,ATCC,0.000732618
+Hs 737.T,bone,ATCC,0.000727543
+Hs 343.T,breast,ATCC,0.000705432
+HGC-27,stomach,ECACC,0.000704101
+SK-UT-1,soft_tissue,ATCC,0.000690558
+OCI-LY-19,haematopoietic_and_lymphoid_tissue,DSMZ,0.000686964
+Hs 888.T,bone,ATCC,0.000675462
+NCI-H2286,lung,ATCC,0.000670426
+Hs 819.T,bone,ATCC,0.000665767
+TE 617.T,soft_tissue,ATCC,0.000659392
+Hs 706.T,bone,ATCC,0.000654927
+Hs 822.T,bone,ATCC,0.000654445
+NU-DHL-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.000652309
+HD-MY-Z,haematopoietic_and_lymphoid_tissue,DSMZ,0.000616378
+Hs 821.T,bone,ATCC,0.000598988
+RI-1,haematopoietic_and_lymphoid_tissue,DSMZ,0.000382056
+SNU-C5,large_intestine,KCLB,0.000292636
+PSN1,pancreas,ECACC,0.000281859
+YD-15,salivary_gland,KCLB,0.000276399
+NCI-H2066,lung,ATCC,0.000271566
+JL-1,pleura,DSMZ,0.000192988
+TE 441.T,soft_tissue,ATCC,0.00015084
+SNU-878,liver,KCLB,0.000150143
+HCC-1833,lung,KCLB,0.000139308
+HCC364,lung,Academic Lab / Achilles,0.000106519
+LN-18,central_nervous_system,ATCC,9.54E-05
+YH-13,central_nervous_system,HSRRB,7.34E-05
+HEL 92.1.7,haematopoietic_and_lymphoid_tissue,ATCC,6.95E-05
+MeWo,skin,ATCC,6.94E-05
+KU-19-19,urinary_tract,DSMZ,6.32E-05
+L-428,haematopoietic_and_lymphoid_tissue,DSMZ,5.99E-05
+DND-41,haematopoietic_and_lymphoid_tissue,DSMZ,5.86E-05
+Hs 729,soft_tissue,ATCC,5.77E-05
+NCI-H2405,lung,ATCC,5.47E-05
+LN-428,central_nervous_system,Academic Lab / Achilles,5.42E-05
+CCF-STTG1,central_nervous_system,ATCC,5.38E-05
+KE-97,haematopoietic_and_lymphoid_tissue,RIKEN,5.28E-05
+U266B1,haematopoietic_and_lymphoid_tissue,ATCC,5.23E-05
+SW 1573,lung,ATCC,5.20E-05
+HDLM-2,haematopoietic_and_lymphoid_tissue,DSMZ,4.90E-05
+42-MG-BA,central_nervous_system,DSMZ,4.85E-05
+MEC-1,haematopoietic_and_lymphoid_tissue,DSMZ,4.84E-05
+WSU-DLCL2,haematopoietic_and_lymphoid_tissue,DSMZ,4.82E-05
+IA-LM,lung,RIKEN,4.80E-05
+HEL,haematopoietic_and_lymphoid_tissue,DSMZ,4.73E-05
+DM-3,pleura,DSMZ,4.71E-05
+CAS-1,central_nervous_system,ICLC,4.70E-05
+A-204,soft_tissue,ATCC,4.67E-05
+SNU-466,central_nervous_system,KCLB,4.66E-05
+KMRC-2,kidney,HSRRB,4.63E-05
+LXF-289,lung,DSMZ,4.62E-05
+Calu-6,lung,ATCC,4.61E-05
+PL-21,haematopoietic_and_lymphoid_tissue,DSMZ,4.60E-05
+LN-340,central_nervous_system,Academic Lab / Achilles,4.59E-05
+JVM-2,haematopoietic_and_lymphoid_tissue,DSMZ,4.58E-05
+KARPAS-299,haematopoietic_and_lymphoid_tissue,DSMZ,4.57E-05
+DOHH-2,haematopoietic_and_lymphoid_tissue,DSMZ,4.49E-05
+EW8,bone,Academic Lab / Achilles,4.48E-05
+HCT 116,large_intestine,ATCC,4.48E-05
+ME-1,haematopoietic_and_lymphoid_tissue,DSMZ,4.42E-05
+JJN-3,haematopoietic_and_lymphoid_tissue,DSMZ,4.41E-05
+JVM-3,haematopoietic_and_lymphoid_tissue,DSMZ,4.39E-05
+MG-63,bone,ATCC,4.39E-05
+HuH28,biliary_tract,HSRRB,4.37E-05
+KASUMI-1,haematopoietic_and_lymphoid_tissue,DSMZ,4.37E-05
+HH,haematopoietic_and_lymphoid_tissue,ATCC,4.37E-05
+BT-549,breast,ATCC,4.36E-05
+RD,soft_tissue,ATCC,4.36E-05
+KG-1,haematopoietic_and_lymphoid_tissue,ATCC,4.36E-05
+786-O,kidney,ATCC,4.36E-05
+GCT,soft_tissue,ATCC,4.35E-05
+NCI-H661,lung,ATCC,4.35E-05
+SU-DHL-4,haematopoietic_and_lymphoid_tissue,DSMZ,4.34E-05
+D283 Med,central_nervous_system,ATCC,4.34E-05
+DK-MG,central_nervous_system,DSMZ,4.33E-05
+GI-1,central_nervous_system,RIKEN,4.33E-05
+Hs 281.T,breast,ATCC,4.33E-05
+RKO,large_intestine,ATCC,4.33E-05
+KMM-1,haematopoietic_and_lymphoid_tissue,HSRRB,4.32E-05
+RL,haematopoietic_and_lymphoid_tissue,ATCC,4.32E-05
+SK-MM-2,haematopoietic_and_lymphoid_tissue,DSMZ,4.31E-05
+UM-UC-3,urinary_tract,ATCC,4.31E-05
+MC116,haematopoietic_and_lymphoid_tissue,ATCC,4.29E-05
+MONO-MAC-1,haematopoietic_and_lymphoid_tissue,DSMZ,4.28E-05
+Raji,haematopoietic_and_lymphoid_tissue,ATCC,4.27E-05
+KMS-28BM,haematopoietic_and_lymphoid_tissue,HSRRB,4.27E-05
+HL-60,haematopoietic_and_lymphoid_tissue,ATCC,4.26E-05
+Hs 229.T,lung,ATCC,4.26E-05
+A172,central_nervous_system,ATCC,4.26E-05
+CH-157MN,central_nervous_system,Academic Lab / Achilles,4.24E-05
+Hs 940.T,skin,ATCC,4.23E-05
+EM-2,haematopoietic_and_lymphoid_tissue,DSMZ,4.19E-05
+Hs 839.T,skin,ATCC,4.19E-05
+Hs 274.T,breast,ATCC,4.18E-05
+IOMM-Lee,central_nervous_system,Academic Lab / Achilles,4.17E-05
+NCI-H2452,pleura,ATCC,4.16E-05
+NALM-6,haematopoietic_and_lymphoid_tissue,DSMZ,4.15E-05
+HT,haematopoietic_and_lymphoid_tissue,ATCC,4.14E-05
+OVCAR-8,ovary,NCI/DCTD,4.13E-05
+TE 159.T,soft_tissue,ATCC,4.13E-05
+TOV-112D,ovary,ATCC,4.12E-05
+HuT 78,haematopoietic_and_lymphoid_tissue,ATCC,4.12E-05
+Hs 688(A).T,skin,ATCC,4.12E-05
+NCI-H196,lung,ATCC,4.07E-05
+A1207,central_nervous_system,Academic Lab / Achilles,4.05E-05
+Hs 618.T,lung,ATCC,4.04E-05
